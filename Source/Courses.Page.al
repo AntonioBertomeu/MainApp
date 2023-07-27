@@ -5,6 +5,8 @@ page 50900 "Course List"
     UsageCategory = Lists;
     SourceTable = Course;
 
+    CaptionML = ENU = 'Course List', ESP = 'Lista Cursos';
+
     layout
     {
         area(Content)
