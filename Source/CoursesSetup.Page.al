@@ -1,12 +1,12 @@
-page 50902 "Courses Setup"
+page 50902 "anbert Courses Setup"
 {
-    AccessByPermission = TableData Course = R;
+    AccessByPermission = TableData "anbert Course" = R;
     ApplicationArea = Jobs;
     CaptionML = ENU = 'Courses Setup', ESP = 'Conf. Cursos';
     DeleteAllowed = false;
     InsertAllowed = false;
     PageType = Card;
-    SourceTable = "Courses Setup";
+    SourceTable = "anbert Courses Setup";
     UsageCategory = Administration;
 
     layout

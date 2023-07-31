@@ -1,4 +1,4 @@
-table 50900 Course
+table 50900 "anbert Course"
 {
     CaptionML = ENU = 'Course', ESP = 'Curso';
     DataCaptionFields = Name;
@@ -10,7 +10,7 @@ table 50900 Course
 
             trigger OnValidate()
             var
-                ResSetup: record "Courses Setup";
+                ResSetup: record "anbert Courses Setup";
                 NoSeriesMgt: Codeunit NoSeriesManagement;
             begin
                 if "No." <> xRec."No." then begin
@@ -30,7 +30,7 @@ table 50900 Course
             OptionMembers = " ","Intructor-Lead","Video Tutorial";
             OptionCaptionML = ENU = ' ,Instructor-Lead,Video Tutorial', ESP = ' ,Guiado profesor,Video tutorial';
         }
-        field(8; Type; Enum "Course Type") { CaptionML = ENU = 'Course Type', ESP = 'Tipo Curso'; }
+        field(8; Type; Enum "anbert Course Type") { CaptionML = ENU = 'Course Type', ESP = 'Tipo Curso'; }
         field(7; "Language Code"; Code[10])
         {
             CaptionML = ENU = 'Language Code', ESP = 'Idioma Curso';
@@ -45,7 +45,7 @@ table 50900 Course
     }
     trigger OnInsert()
     var
-        ResSetup: record "Courses Setup";
+        ResSetup: record "anbert Courses Setup";
         NoSeriesMgt: Codeunit NoSeriesManagement;
     begin
         if "No." = '' then begin
@@ -56,12 +56,12 @@ table 50900 Course
 
     end;
 
-    procedure AssistEdit(OldRes: Record Course) Result: Boolean
+    procedure AssistEdit(OldRes: Record "anbert Course") Result: Boolean
     var
         // IsHandled: Boolean;
-        ResSetup: record "Courses Setup";
+        ResSetup: record "anbert Courses Setup";
         NoSeriesMgt: Codeunit NoSeriesManagement;
-        res: record Course;
+        res: record "anbert Course";
     begin
         // IsHandled := false;
         // OnBeforeAssistEdit(Rec, OldRes, IsHandled, Result);

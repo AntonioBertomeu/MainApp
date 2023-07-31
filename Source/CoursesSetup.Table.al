@@ -1,4 +1,4 @@
-table 50901 "Courses Setup"
+table 50901 "anbert Courses Setup"
 {
     CaptionML = ENU = 'Courses Setup', ESP = 'Conf. Cursos';
 

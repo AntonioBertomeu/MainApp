@@ -1,10 +1,10 @@
-page 50901 "Course Card"
+page 50901 "anbert Course Card"
 {
     CaptionML = ENU = 'Course Card', ESP = 'Ficha Curso';
     PageType = Card;
     //ApplicationArea = All;
     UsageCategory = None;
-    SourceTable = Course;
+    SourceTable = "anbert Course";
 
     layout
     {

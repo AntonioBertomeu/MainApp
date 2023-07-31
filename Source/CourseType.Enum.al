@@ -1,4 +1,4 @@
-enum 50900 "Course Type"
+enum 50900 "anbert Course Type"
 {
     CaptionML = ENU = 'Course Type ', ESP = 'Tipo Curso ';
     Extensible = true;
