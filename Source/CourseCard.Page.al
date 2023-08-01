@@ -29,6 +29,12 @@ page 50901 "anbert Course Card"
 
                 field(Name; Rec.Name) { ApplicationArea = all; }
             }
+            part(CourseEditions; "anbert Course Editions FactBox")
+            {
+                ApplicationArea = all;
+                SubPageLink = "Course No." = field("No.");
+            }
+
             group(Training)
             {
                 CaptionML = ENU = 'Training', ESP = 'Formacion';
@@ -45,4 +51,18 @@ page 50901 "anbert Course Card"
             }
         }
     }
+    actions
+    {
+        area(Navigation)
+        {
+            action(Editions)
+            {
+                ApplicationArea = all;
+                CaptionML = ENU = 'Editions', ESP = 'Ediciones';
+                RunObject = page "anbert Course Editions";
+                RunPageLink = "Course No." = field("No.");
+            }
+        }
+    }
 }
+

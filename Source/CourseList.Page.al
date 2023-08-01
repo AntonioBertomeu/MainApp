@@ -24,7 +24,28 @@ page 50900 "anbert Course List"
             }
 
         }
+
+        area(FactBoxes)
+        {
+            part(CourseEditions; "anbert Course Editions FactBox")
+            {
+                ApplicationArea = all;
+                SubPageLink = "Course No." = field("No.");
+            }
+        }
     }
 
-
+    actions
+    {
+        area(Navigation)
+        {
+            action(Editions)
+            {
+                ApplicationArea = all;
+                CaptionML = ENU = 'Editions', ESP = 'Ediciones';
+                RunObject = page "anbert Course Editions";
+                RunPageLink = "Course No." = field("No.");
+            }
+        }
+    }
 }
