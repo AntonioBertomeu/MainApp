@@ -15,7 +15,7 @@ page 50903 "anbert Course Editions"
                 field("Course No."; Rec."Course No.")
                 {
                     ApplicationArea = All;
-                    Visible = False;
+                    Visible = false;
                 }
                 field(Edition; Rec.Edition) { ApplicationArea = All; }
                 field("Start Date"; Rec."Start Date") { ApplicationArea = All; }

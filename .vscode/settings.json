@@ -5,5 +5,14 @@
     "CRS.FileNamePatternPageCustomizations": "<ObjectNameShort>.<ObjectTypeShortPascalCase>.al",
     "CRS.ExtensionObjectNamePattern": "<Prefix><BaseName>",
     "CRS.ObjectNamePrefix": "anbert ",
-    "CRS.RemovePrefixFromFilename": true
+    "CRS.RemovePrefixFromFilename": true,
+    "al.enableCodeAnalysis": true,
+    "al.codeAnalyzers": [
+        "${CodeCop}",
+        "${UICop}",
+        "${PerTenantExtensionCop}"
+    ],
+    "al.ruleSetPath": "./.vscode/Normas.ruleset.json"
+
  }
+ 

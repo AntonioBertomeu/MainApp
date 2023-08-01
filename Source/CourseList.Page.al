@@ -43,6 +43,7 @@ page 50900 "anbert Course List"
             {
                 ApplicationArea = all;
                 CaptionML = ENU = 'Editions', ESP = 'Ediciones';
+                Image = CodesList;
                 RunObject = page "anbert Course Editions";
                 RunPageLink = "Course No." = field("No.");
             }

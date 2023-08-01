@@ -17,7 +17,7 @@ page 50901 "anbert Course Card"
                 {
 
                     ApplicationArea = All;
-
+                    ToolTipML = ENU = 'Codigo', ESP = 'Código';
                     trigger OnAssistEdit()
                     begin
                         if rec.AssistEdit(xRec) then
@@ -59,6 +59,7 @@ page 50901 "anbert Course Card"
             {
                 ApplicationArea = all;
                 CaptionML = ENU = 'Editions', ESP = 'Ediciones';
+                Image = CodesList;
                 RunObject = page "anbert Course Editions";
                 RunPageLink = "Course No." = field("No.");
             }

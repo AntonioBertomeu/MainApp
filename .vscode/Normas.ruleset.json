@@ -1,0 +1,17 @@
+{
+    "name": "Normas",
+    "description": "Normas personalizas",
+    "rules": [
+        {
+            "id" : "AA0218",
+            "action": "None",
+            "justification": "No hace falta definir todos los tooltips"
+        },
+        {
+            "id" : "AA0215",
+            "action": "None",
+            "justification": "No hace falta cambiar el nombre del objeto para poner el prefijo anbert"
+        }
+
+    ]
+}
