@@ -11,7 +11,26 @@
             "id" : "AA0215",
             "action": "None",
             "justification": "No hace falta cambiar el nombre del objeto para poner el prefijo anbert"
+        },
+        {
+            "id" : "AS0051",
+            "action": "None",
+            "justification": "Definiciones globales para el market place"
+        },
+        {
+            "id" : "AS0052",
+            "action": "None",
+            "justification": "Definiciones para el market place"
+        },
+        {
+            "id" : "AS0084",
+            "action": "None",
+            "justification": "Definiciones para el market place numeros de rangos"
+        },
+        {
+            "id" : "AS0092",
+            "action": "None",
+            "justification": "Definiciones para el market place"
         }
-
     ]
 }

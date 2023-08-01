@@ -10,7 +10,8 @@
     "al.codeAnalyzers": [
         "${CodeCop}",
         "${UICop}",
-        "${PerTenantExtensionCop}"
+        "${PerTenantExtensionCop}",
+        "${AppSourceCop}"
     ],
     "al.ruleSetPath": "./.vscode/Normas.ruleset.json"
 

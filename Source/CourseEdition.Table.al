@@ -1,7 +1,7 @@
 table 50902 "anbert Course Edition"
 {
     CaptionML = ENU = 'Course Edition', ESP = 'Edición Cursos';
-
+    DataClassification = CustomerContent;
     fields
     {
         field(1; "Course No."; Code[20])
