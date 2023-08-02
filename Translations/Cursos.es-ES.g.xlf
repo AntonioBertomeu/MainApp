@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" target-language="es-ES" original="Cursos">
+    <body>
+      <group id="body">
+        <trans-unit id="Table 1178243941 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Course</source>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table anbert Course - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1178243941 - Field 81686673 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Content Description</source>
+          <note from="Developer" annotates="general" priority="2">ESP="Descripción Curso"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table anbert Course - Field Content Description - Property Caption</note>
+          <target>Descripción Curso</target>
+        </trans-unit>
+        <trans-unit id="Table 1178243941 - Field 1545276864 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Duration (Hours)</source>
+          <note from="Developer" annotates="general" priority="2">ESP="Duración (Horas)"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table anbert Course - Field Duration (hours) - Property Caption</note>
+          <target>Duración (Horas)</target>
+        </trans-unit>
+        <trans-unit id="Table 1178243941 - Field 2273653569 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Language Code</source>
+          <note from="Developer" annotates="general" priority="2">ESP="Idioma Curso"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table anbert Course - Field Language Code - Property Caption</note>
+          <target>Idioma Curso</target>
+        </trans-unit>
+        <trans-unit id="Table 1178243941 - Field 2961552353 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Name</source>
+          <note from="Developer" annotates="general" priority="2">ESP="Nombre Curso"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table anbert Course - Field Name - Property Caption</note>
+          <target>Nombre Curso</target>
+        </trans-unit>
+        <trans-unit id="Table 1178243941 - Field 4200184881 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No.</source>
+          <note from="Developer" annotates="general" priority="2">ESP="Nº"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table anbert Course - Field No. - Property Caption</note>
+          <target>Nº</target>
+        </trans-unit>
+        <trans-unit id="Table 1178243941 - Field 1351594800 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No. Series</source>
+          <note from="Developer" annotates="general" priority="2">ESP="No. Series"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table anbert Course - Field No. Series - Property Caption</note>
+          <target>No. Series</target>
+        </trans-unit>
+        <trans-unit id="Table 1178243941 - Field 3635338911 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Price</source>
+          <note from="Developer" annotates="general" priority="2">ESP="Precio"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table anbert Course - Field Price - Property Caption</note>
+          <target>Precio</target>
+        </trans-unit>
+        <trans-unit id="Table 1178243941 - Field 1878130204 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Course Type</source>
+          <note from="Developer" annotates="general" priority="2">ESP="Tipo Curso"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table anbert Course - Field Type - Property Caption</note>
+          <target>Tipo Curso</target>
+        </trans-unit>
+        <trans-unit id="Table 1178243941 - Field 63134078 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Type (Option)</source>
+          <note from="Developer" annotates="general" priority="2">ESP="Tipo (Opción)"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table anbert Course - Field Type (Option) - Property Caption</note>
+          <target>Tipo (Opción)</target>
+        </trans-unit>
+        <trans-unit id="Table 1178243941 - Field 63134078 - Property 62802879" size-unit="char" translate="yes" xml:space="preserve">
+          <source> ,Instructor-Lead,Video Tutorial</source>
+          <note from="Developer" annotates="general" priority="2">ESP=" ,Guiado profesor,Video tutorial"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table anbert Course - Field Type (Option) - Property OptionCaption</note>
+          <target> ,Guiado profesor,Video tutorial</target>
+        </trans-unit>
+        <trans-unit id="Table 60776537 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Course Edition</source>
+          <note from="Developer" annotates="general" priority="2">ESP="Edición Cursos"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table anbert Course Edition - Property Caption</note>
+          <target>Edición Cursos</target>
+        </trans-unit>
+        <trans-unit id="Table 60776537 - Field 1667959142 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Course No.</source>
+          <note from="Developer" annotates="general" priority="2">ESP="No. Curso"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table anbert Course Edition - Field Course No. - Property Caption</note>
+          <target>No. Curso</target>
+        </trans-unit>
+        <trans-unit id="Table 60776537 - Field 2511900496 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Edition</source>
+          <note from="Developer" annotates="general" priority="2">ESP="Edición"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table anbert Course Edition - Field Edition - Property Caption</note>
+          <target>Edición</target>
+        </trans-unit>
+        <trans-unit id="Table 60776537 - Field 819112188 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Max. Studetns</source>
+          <note from="Developer" annotates="general" priority="2">ESP="No. Máx. Alumnos"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table anbert Course Edition - Field Max. Studetns - Property Caption</note>
+          <target>No. Máx. Alumnos</target>
+        </trans-unit>
+        <trans-unit id="Table 60776537 - Field 474480784 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Start Date</source>
+          <note from="Developer" annotates="general" priority="2">ESP="Fecha Inicio"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table anbert Course Edition - Field Start Date - Property Caption</note>
+          <target>Fecha Inicio</target>
+        </trans-unit>
+        <trans-unit id="Table 2265457601 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Courses Setup</source>
+          <note from="Developer" annotates="general" priority="2">ESP="Conf. Cursos"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table anbert Courses Setup - Property Caption</note>
+          <target>Conf. Cursos</target>
+        </trans-unit>
+        <trans-unit id="Table 2265457601 - Field 3345900843 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Course Nos.</source>
+          <note from="Developer" annotates="general" priority="2">ESP="Curso Nos."</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table anbert Courses Setup - Field Course Nos. - Property Caption</note>
+          <target>Curso Nos.</target>
+        </trans-unit>
+        <trans-unit id="Table 2265457601 - Field 1663593181 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Primary Key</source>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table anbert Courses Setup - Field Primary Key - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3694559849 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Course Card</source>
+          <note from="Developer" annotates="general" priority="2">ESP="Ficha Curso"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page anbert Course Card - Property Caption</note>
+          <target>Ficha Curso</target>
+        </trans-unit>
+        <trans-unit id="Page 3694559849 - Control 2445482498 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>General</source>
+          <note from="Developer" annotates="general" priority="2">ESP="General"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page anbert Course Card - Control General - Property Caption</note>
+          <target>General</target>
+        </trans-unit>
+        <trans-unit id="Page 3694559849 - Control 4200184881 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Codigo</source>
+          <note from="Developer" annotates="general" priority="2">ESP="Código"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page anbert Course Card - Control No. - Property ToolTip</note>
+          <target>Código</target>
+        </trans-unit>
+        <trans-unit id="Page 3694559849 - Control 1450094168 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Invoicing</source>
+          <note from="Developer" annotates="general" priority="2">ESP="Facturación"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page anbert Course Card - Control Invoicing - Property Caption</note>
+          <target>Facturación</target>
+        </trans-unit>
+        <trans-unit id="Page 3694559849 - Control 2116756124 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Training</source>
+          <note from="Developer" annotates="general" priority="2">ESP="Formacion"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page anbert Course Card - Control Training - Property Caption</note>
+          <target>Formacion</target>
+        </trans-unit>
+        <trans-unit id="Page 3694559849 - Action 2267867377 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Editions</source>
+          <note from="Developer" annotates="general" priority="2">ESP="Ediciones"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page anbert Course Card - Action Editions - Property Caption</note>
+          <target>Ediciones</target>
+        </trans-unit>
+        <trans-unit id="Page 1183054544 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Course Editions</source>
+          <note from="Developer" annotates="general" priority="2">ESP="Ediciones cursos"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page anbert Course Editions - Property Caption</note>
+          <target>Ediciones cursos</target>
+        </trans-unit>
+        <trans-unit id="Page 2823761835 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Course Editions</source>
+          <note from="Developer" annotates="general" priority="2">ESP="Ediciones cursos"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page anbert Course Editions FactBox - Property Caption</note>
+          <target>Ediciones cursos</target>
+        </trans-unit>
+        <trans-unit id="Page 639702075 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Course List</source>
+          <note from="Developer" annotates="general" priority="2">ESP="Lista Cursos"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page anbert Course List - Property Caption</note>
+          <target>Lista Cursos</target>
+        </trans-unit>
+        <trans-unit id="Page 639702075 - Action 2267867377 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Editions</source>
+          <note from="Developer" annotates="general" priority="2">ESP="Ediciones"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page anbert Course List - Action Editions - Property Caption</note>
+          <target>Ediciones</target>
+        </trans-unit>
+        <trans-unit id="Page 2265457601 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Courses Setup</source>
+          <note from="Developer" annotates="general" priority="2">ESP="Conf. Cursos"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page anbert Courses Setup - Property Caption</note>
+          <target>Conf. Cursos</target>
+        </trans-unit>
+        <trans-unit id="Page 2265457601 - Control 1532816877 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Numbering</source>
+          <note from="Developer" annotates="general" priority="2">ESP="Numeración"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page anbert Courses Setup - Control Numbering - Property Caption</note>
+          <target>Numeración</target>
+        </trans-unit>
+        <trans-unit id="Page 2265457601 - Control 3345900843 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the number series code you can use to assign numbers to Courses.</source>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page anbert Courses Setup - Control Course Nos. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Enum 2819091517 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Course Type </source>
+          <note from="Developer" annotates="general" priority="2">ESP="Tipo Curso "</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum anbert Course Type - Property Caption</note>
+          <target>Tipo Curso </target>
+        </trans-unit>
+        <trans-unit id="Enum 2819091517 - EnumValue 1371923692 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source> </source>
+          <note from="Developer" annotates="general" priority="2">ESP=" "</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum anbert Course Type - EnumValue   - Property Caption</note>
+          <target> </target>
+        </trans-unit>
+        <trans-unit id="Enum 2819091517 - EnumValue 1614378835 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Instruct-Lead </source>
+          <note from="Developer" annotates="general" priority="2">ESP="Instructor"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum anbert Course Type - EnumValue Instruct-Lead - Property Caption</note>
+          <target>Instructor</target>
+        </trans-unit>
+        <trans-unit id="Enum 2819091517 - EnumValue 1508350549 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Video Tutorial </source>
+          <note from="Developer" annotates="general" priority="2">ESP="Video Tutorial "</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum anbert Course Type - EnumValue Video Tutotial - Property Caption</note>
+          <target>Video Tutorial </target>
+        </trans-unit>
+        <trans-unit id="PermissionSet 2237272573 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Courses Indirect</source>
+          <note from="Developer" annotates="general" priority="2">ESP="Cursos Indirect"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">PermissionSet anbert CoursesInd - Property Caption</note>
+          <target>Cursos Indirect</target>
+        </trans-unit>
+        <trans-unit id="PermissionSet 643364267 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Courses SUPER</source>
+          <note from="Developer" annotates="general" priority="2">ESP="Cursos SUPER"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">PermissionSet anbert CoursesSUPER - Property Caption</note>
+          <target>Cursos SUPER</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

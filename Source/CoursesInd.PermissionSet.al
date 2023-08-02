@@ -1,6 +1,6 @@
 permissionset 50901 "anbert CoursesInd"
 {
-    CaptionML = ENU = 'Courses Indirect', ESP = 'Cursos Indirect';
+    Caption = 'Courses Indirect', comment = 'ESP="Cursos Indirect"';
     Assignable = true;
     //IncludedPermissionSets = ; // Heredar permisos de otro conjunto que se suman
     Permissions = tabledata "anbert Course" = rimd, //mayusculas permiso directo, minusculas indirecto (actualiar indirectamente la 

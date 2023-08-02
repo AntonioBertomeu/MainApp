@@ -2,7 +2,7 @@ page 50902 "anbert Courses Setup"
 {
     AccessByPermission = TableData "anbert Course" = R;
     ApplicationArea = Jobs;
-    CaptionML = ENU = 'Courses Setup', ESP = 'Conf. Cursos';
+    Caption = 'Courses Setup', comment = 'ESP="Conf. Cursos"';
     DeleteAllowed = false;
     InsertAllowed = false;
     PageType = Card;
@@ -15,7 +15,7 @@ page 50902 "anbert Courses Setup"
         {
             group(Numbering)
             {
-                CaptionML = ENU = 'Numbering', ESP = 'Numeración';
+                Caption = 'Numbering', comment = 'ESP="Numeración"';
                 field("Course Nos."; Rec."Course Nos.")
                 {
                     ApplicationArea = Jobs;

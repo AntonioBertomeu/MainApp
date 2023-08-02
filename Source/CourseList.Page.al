@@ -6,7 +6,7 @@ page 50900 "anbert Course List"
     SourceTable = "anbert Course";
     Editable = false;
 
-    CaptionML = ENU = 'Course List', ESP = 'Lista Cursos';
+    Caption = 'Course List', comment = 'ESP="Lista Cursos"';
 
     CardPageId = "anbert Course Card";
     layout
@@ -42,7 +42,7 @@ page 50900 "anbert Course List"
             action(Editions)
             {
                 ApplicationArea = all;
-                CaptionML = ENU = 'Editions', ESP = 'Ediciones';
+                Caption = 'Editions', comment = 'ESP="Ediciones"';
                 Image = CodesList;
                 RunObject = page "anbert Course Editions";
                 RunPageLink = "Course No." = field("No.");

@@ -1,6 +1,6 @@
 page 50901 "anbert Course Card"
 {
-    CaptionML = ENU = 'Course Card', ESP = 'Ficha Curso';
+    Caption = 'Course Card', comment = 'ESP="Ficha Curso"';
     PageType = Card;
     //ApplicationArea = All;
     UsageCategory = None;
@@ -12,12 +12,12 @@ page 50901 "anbert Course Card"
         {
             group(General)
             {
-                CaptionML = ENU = 'General', ESP = 'General';
+                Caption = 'General', comment = 'ESP="General"';
                 field("No."; Rec."No.")
                 {
 
                     ApplicationArea = All;
-                    ToolTipML = ENU = 'Codigo', ESP = 'Código';
+                    ToolTip = 'Codigo', comment = 'ESP="Código"';
                     trigger OnAssistEdit()
                     begin
                         if rec.AssistEdit(xRec) then
@@ -37,7 +37,7 @@ page 50901 "anbert Course Card"
 
             group(Training)
             {
-                CaptionML = ENU = 'Training', ESP = 'Formacion';
+                Caption = 'Training', comment = 'ESP="Formacion"';
                 field(Type; Rec.Type) { ApplicationArea = all; }
                 field("Duration (hours)"; Rec."Duration (hours)") { ApplicationArea = all; }
                 field("Language Code"; Rec."Language Code") { ApplicationArea = all; }
@@ -45,7 +45,7 @@ page 50901 "anbert Course Card"
             }
             group(Invoicing)
             {
-                CaptionML = ENU = 'Invoicing', ESP = 'Facturación';
+                Caption = 'Invoicing', comment = 'ESP="Facturación"';
                 field(Price; Rec.Price) { ApplicationArea = all; }
                 field("Type (Option)"; Rec."Type (Option)") { ApplicationArea = all; }
             }
@@ -58,7 +58,7 @@ page 50901 "anbert Course Card"
             action(Editions)
             {
                 ApplicationArea = all;
-                CaptionML = ENU = 'Editions', ESP = 'Ediciones';
+                Caption = 'Editions', comment = 'ESP="Ediciones"';
                 Image = CodesList;
                 RunObject = page "anbert Course Editions";
                 RunPageLink = "Course No." = field("No.");

@@ -1,6 +1,6 @@
 permissionset 50900 "anbert CoursesSUPER"
 {
-    CaptionML = ENU = 'Courses SUPER', ESP = 'Cursos SUPER';
+    Caption = 'Courses SUPER', comment = 'ESP="Cursos SUPER"';
     Assignable = true;
     //IncludedPermissionSets = ; // Heredar permisos de otro conjunto que se suman
     Permissions =

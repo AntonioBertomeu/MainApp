@@ -1,6 +1,6 @@
 page 50904 "anbert Course Editions FactBox"
 {
-    CaptionML = ENU = 'Course Editions', ESP = 'Ediciones cursos';
+    Caption = 'Course Editions', comment = 'ESP="Ediciones cursos"';
     PageType = ListPart;
     UsageCategory = None;
     SourceTable = "anbert Course Edition";
