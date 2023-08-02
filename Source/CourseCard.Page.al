@@ -2,7 +2,9 @@ page 50901 "anbert Course Card"
 {
     Caption = 'Course Card', comment = 'ESP="Ficha Curso"';
     PageType = Card;
-    //ApplicationArea = All;
+    //ApplicationArea =  Basic, Suite, Jobs;
+    ApplicationArea = all;
+
     UsageCategory = None;
     SourceTable = "anbert Course";
 
@@ -16,7 +18,7 @@ page 50901 "anbert Course Card"
                 field("No."; Rec."No.")
                 {
 
-                    ApplicationArea = All;
+
                     ToolTip = 'Codigo', comment = 'ESP="Código"';
                     trigger OnAssistEdit()
                     begin
@@ -27,37 +29,36 @@ page 50901 "anbert Course Card"
 
                 }
 
-                field(Name; Rec.Name) { ApplicationArea = all; }
+                field(Name; Rec.Name) { }
             }
             part(CourseEditions; "anbert Course Editions FactBox")
             {
-                ApplicationArea = all;
                 SubPageLink = "Course No." = field("No.");
             }
 
             group(Training)
             {
                 Caption = 'Training', comment = 'ESP="Formacion"';
-                field(Type; Rec.Type) { ApplicationArea = all; }
-                field("Duration (hours)"; Rec."Duration (hours)") { ApplicationArea = all; }
-                field("Language Code"; Rec."Language Code") { ApplicationArea = all; }
-                field("Content Description"; Rec."Content Description") { ApplicationArea = All; }
-            }
-            group(Invoicing)
-            {
-                Caption = 'Invoicing', comment = 'ESP="Facturación"';
-                field(Price; Rec.Price) { ApplicationArea = all; }
-                field("Type (Option)"; Rec."Type (Option)") { ApplicationArea = all; }
+                field(Type; Rec.Type) { }
+                field("Duration (hours)"; Rec."Duration (hours)") { }
+                field("Language Code"; Rec."Language Code") { }
+                field("Content Description"; Rec."Content Description") { }
+                group(Invoicing)
+                {
+                    Caption = 'Invoicing', comment = 'ESP="Facturación"';
+                    field(Price; Rec.Price) { }
+                    field("Type (Option)"; Rec."Type (Option)") { }
+                }
             }
         }
     }
+
     actions
     {
         area(Navigation)
         {
             action(Editions)
             {
-                ApplicationArea = all;
                 Caption = 'Editions', comment = 'ESP="Ediciones"';
                 Image = CodesList;
                 RunObject = page "anbert Course Editions";
