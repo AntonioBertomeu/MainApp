@@ -43,12 +43,14 @@ page 50901 "anbert Course Card"
                 field("Duration (hours)"; Rec."Duration (hours)") { }
                 field("Language Code"; Rec."Language Code") { }
                 field("Content Description"; Rec."Content Description") { }
-                group(Invoicing)
-                {
-                    Caption = 'Invoicing', comment = 'ESP="Facturación"';
-                    field(Price; Rec.Price) { }
-                    field("Type (Option)"; Rec."Type (Option)") { }
-                }
+            }
+            group(Invoicing)
+            {
+                Caption = 'Invoicing', comment = 'ESP="Facturación"';
+                field(Price; Rec.Price) { }
+                field("Type (Option)"; Rec."Type (Option)") { }
+                field("Gen. Prod. Posting Group"; Rec."Gen. Prod. Posting Group") { }
+                field("VAT Prod. Posting Group"; Rec."VAT Prod. Posting Group") { }
             }
         }
     }

@@ -20,6 +20,12 @@
           <note from="Xliff Generator" annotates="general" priority="3">Table anbert Course - Field Duration (hours) - Property Caption</note>
           <target>Duración (Horas)</target>
         </trans-unit>
+        <trans-unit id="Table 1178243941 - Field 2139693550 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Gen. Prod. Posting Group</source>
+          <note from="Developer" annotates="general" priority="2">ESP="Grupo contable prod. gen."</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table anbert Course - Field Gen. Prod. Posting Group - Property Caption</note>
+          <target>Grupo contable prod. gen.</target>
+        </trans-unit>
         <trans-unit id="Table 1178243941 - Field 2273653569 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Language Code</source>
           <note from="Developer" annotates="general" priority="2">ESP="Idioma Curso"</note>
@@ -67,6 +73,12 @@
           <note from="Developer" annotates="general" priority="2">ESP=" ,Guiado profesor,Video tutorial"</note>
           <note from="Xliff Generator" annotates="general" priority="3">Table anbert Course - Field Type (Option) - Property OptionCaption</note>
           <target> ,Guiado profesor,Video tutorial</target>
+        </trans-unit>
+        <trans-unit id="Table 1178243941 - Field 236064653 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>VAT Prod. Posting Group</source>
+          <note from="Developer" annotates="general" priority="2">ESP="Grupo contable IVA Prod."</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table anbert Course - Field VAT Prod. Posting Group - Property Caption</note>
+          <target>Grupo contable IVA Prod.</target>
         </trans-unit>
         <trans-unit id="Table 60776537 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Course Edition</source>
@@ -215,6 +227,12 @@
           <note from="Developer" annotates="general" priority="2">ESP="Video Tutorial "</note>
           <note from="Xliff Generator" annotates="general" priority="3">Enum anbert Course Type - EnumValue Video Tutotial - Property Caption</note>
           <target>Video Tutorial </target>
+        </trans-unit>
+        <trans-unit id="EnumExtension 861783852 - EnumValue 1178243941 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Enum 1710557762">
+          <source>Course</source>
+          <note from="Developer" annotates="general" priority="2">ESP="Curso"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">EnumExtension anbert Sales Line Type - EnumValue anbert Course - Property Caption</note>
+          <target>Curso</target>
         </trans-unit>
         <trans-unit id="PermissionSet 2237272573 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Courses Indirect</source>

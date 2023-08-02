@@ -36,12 +36,32 @@ table 50900 "anbert Course"
         {
             Caption = 'Language Code', comment = 'ESP="Idioma Curso"';
             TableRelation = Language;
+            ValidateTableRelation = false; //Se puede rellenar a mano no comprueba la existencia
         }
         field(56; "No. Series"; Code[20])
         {
             Caption = 'No. Series', comment = 'ESP="No. Series"';
             Editable = false;
             TableRelation = "No. Series";
+        }
+        field(51; "Gen. Prod. Posting Group"; Code[20])
+        {
+            Caption = 'Gen. Prod. Posting Group', Comment = 'ESP="Grupo contable prod. gen."';
+            TableRelation = "Gen. Product Posting Group";
+
+            trigger OnValidate()
+            var
+                GenProductPostingGroup: Record "Gen. Product Posting Group";
+            begin
+                if xRec."Gen. Prod. Posting Group" <> rec."Gen. Prod. Posting Group" then
+                    if GenProductPostingGroup.ValidateVatProdPostingGroup(GenProductPostingGroup, "Gen. Prod. Posting Group") then
+                        rec.Validate("VAT Prod. Posting Group", GenProductPostingGroup."Def. VAT Prod. Posting Group");
+            end;
+        }
+        field(58; "VAT Prod. Posting Group"; Code[20])
+        {
+            Caption = 'VAT Prod. Posting Group', Comment = 'ESP="Grupo contable IVA Prod."';
+            TableRelation = "VAT Product Posting Group";
         }
     }
     trigger OnInsert()
