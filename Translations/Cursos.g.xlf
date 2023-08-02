@@ -113,15 +113,15 @@
           <note from="Developer" annotates="general" priority="2">ESP="Código"</note>
           <note from="Xliff Generator" annotates="general" priority="3">Page anbert Course Card - Control No. - Property ToolTip</note>
         </trans-unit>
-        <trans-unit id="Page 3694559849 - Control 1450094168 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Invoicing</source>
-          <note from="Developer" annotates="general" priority="2">ESP="Facturación"</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page anbert Course Card - Control Invoicing - Property Caption</note>
-        </trans-unit>
         <trans-unit id="Page 3694559849 - Control 2116756124 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Training</source>
           <note from="Developer" annotates="general" priority="2">ESP="Formacion"</note>
           <note from="Xliff Generator" annotates="general" priority="3">Page anbert Course Card - Control Training - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3694559849 - Control 1450094168 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Invoicing</source>
+          <note from="Developer" annotates="general" priority="2">ESP="Facturación"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page anbert Course Card - Control Invoicing - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 3694559849 - Action 2267867377 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Editions</source>
