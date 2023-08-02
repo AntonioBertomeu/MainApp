@@ -31,6 +31,15 @@ table 50902 "anbert Course Edition"
         }
 
     }
+    fieldgroups
+    {
+        // Lo siguiente "DropDown" para los desplegables de la tablas
+        fieldgroup(DropDown; Edition, "Start Date", "Max. Studetns") { }
+        // Lo siguiente "Brick" para las listas con iconos
+        //fieldgroup(Brick;Edition)
+        //{
+        //}
 
-
+    }
 }
+

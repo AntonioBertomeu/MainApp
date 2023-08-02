@@ -8,5 +8,12 @@ tableextension 50900 "anbert Sales Line" extends "Sales Line"
         {
             TableRelation = if (Type = const("anbert Course")) "anbert Course";
         }
+        field(50900; "anbert Course edition"; code[20])
+        {
+            Caption = 'Course Edition', comment = 'ESP="Edición Curso"';
+            DataClassification = CustomerContent;
+            TableRelation = "anbert Course Edition".Edition where("Course No." = field("No."));
+
+        }
     }
 }
