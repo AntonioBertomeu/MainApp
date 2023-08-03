@@ -1,4 +1,4 @@
-tableextension 50900 "anbert Sales Line" extends "Sales Line"
+tableextension 50905 "anbert Sales Line Archive" extends "Sales Line Archive"
 {
 
     fields

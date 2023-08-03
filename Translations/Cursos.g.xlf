@@ -178,10 +178,30 @@
           <note from="Developer" annotates="general" priority="2">ESP="La Descripción"</note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension anbert Sales Order Subform - Change Description - Property Caption</note>
         </trans-unit>
+        <trans-unit id="TableExtension 1646101594 - Field 191464505 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1173465396">
+          <source>Course Edition</source>
+          <note from="Developer" annotates="general" priority="2">ESP="Edición Curso"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension anbert Return receipt Line - Field anbert Course edition - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3391116311 - Field 191464505 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3059602325">
+          <source>Course Edition</source>
+          <note from="Developer" annotates="general" priority="2">ESP="Edición Curso"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension anbert Sales Cr.Memo Line - Field anbert Course edition - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3376193403 - Field 191464505 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2079186865">
+          <source>Course Edition</source>
+          <note from="Developer" annotates="general" priority="2">ESP="Edición Curso"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension anbert Sales invoice Line - Field anbert Course edition - Property Caption</note>
+        </trans-unit>
         <trans-unit id="TableExtension 2763684044 - Field 191464505 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2574427010">
           <source>Course Edition</source>
           <note from="Developer" annotates="general" priority="2">ESP="Edición Curso"</note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension anbert Sales Line - Field anbert Course edition - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 1857484270 - Field 191464505 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2903552224">
+          <source>Course Edition</source>
+          <note from="Developer" annotates="general" priority="2">ESP="Edición Curso"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension anbert Sales Line Archive - Field anbert Course edition - Property Caption</note>
         </trans-unit>
         <trans-unit id="TableExtension 776569644 - Field 191464505 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1114148978">
           <source>Course Edition</source>
