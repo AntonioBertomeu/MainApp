@@ -1,0 +1,24 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "ABG Desarrollo CURSOS",
+            "request": "launch",
+            "type": "al",
+            "environmentType": "OnPrem",
+            "server": "http://bc22cu3es",
+            "serverInstance": "BC",
+            "authentication": "UserPassword",
+            "port": 7049,
+            "startupObjectId": 50900,
+            "startupObjectType": "Page",
+            "breakOnError": "All",
+            "launchBrowser": true,
+            "enableLongRunningSqlStatements": true,
+            "enableSqlInformationDebugger": true,
+            "tenant": "default",
+            "usePublicURLFromServer": true,
+            "schemaUpdateMode": "ForceSync"  //ojo desactivar en productivo
+        }
+    ]
+}

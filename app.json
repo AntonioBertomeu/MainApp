@@ -1,0 +1,33 @@
+{
+   "id": "1a8da8d8-7e45-423c-a57d-b8389fbae559",
+  "name": "Cursos",
+  "publisher": "anbert",
+  "version": "1.0.0.0",
+  "brief": "Ejemplo desarrollos cursos",
+  "description": "Ejemplo desarrollos cursos",
+  "privacyStatement": "", 
+  "EULA": "",
+  "help": "", 
+  "url": "", 
+  "logo": "",
+  "dependencies": [],
+  "screenshots": [],
+  "platform": "1.0.0.0",
+  "application": "22.0.0.0",
+  "idRanges": [
+    {
+      "from": 50900,
+      "to": 50949
+    }
+  ],
+  "resourceExposurePolicy": {
+    "allowDebugging": true,
+    "allowDownloadingSource": true,
+    "includeSourceInSymbolFile": true
+  },
+  "runtime": "11.0",
+  "features": [
+    "NoImplicitWith",
+    "TranslationFile"
+  ]
+}
